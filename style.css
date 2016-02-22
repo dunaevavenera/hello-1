@@ -1,0 +1,180 @@
+TABLE {
+    background: #339933; /* Цвет фона таблицы */
+    color: #0099FF; /* Цвет текста */
+    border-color: #ffffff;
+    text-align: center;
+    width: 100%;
+    border: 1px solid #708090;
+   }
+   TD, TH {
+    background: #464646; /* Цвет фона ячеек */
+    padding: 5px; /* Поля вокруг текста */
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid #708090;
+	}
+
+    .td1 {
+   	width: 30px;
+   }
+   .td2{
+   	width: 30px;
+   }
+   .td4{
+   	width: 50px;
+   }
+   .td3{
+   	text-align: left;
+   }
+#p1 {
+  text-align:center;}
+.video {
+	position: relative;
+	padding-bottom: 56.25%;
+	height: 0;
+	overflow: hidden;
+}
+.video iframe,  
+.video object,  
+.video embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+#prava{
+  color: #cfcfcf; 
+  text-align: center;
+  padding: 15px;
+}
+#responsive-menu
+li:hover{
+  background: #0099FF;
+  color: #0099FF;
+}
+#responsive-menu a{
+  color: white;
+}
+.container p{
+    vertical-align: middle;
+}
+#corousel
+a{
+  background-color: black;
+}
+ body{
+  background-image: url('images/fon.jpg');
+  background-attachment: fixed;
+ }
+ .carousel-inner > a{
+  background-color: #8A2BE2;
+ }
+
+ .infa {
+  margin-right: 2px;
+  line-height: 1.42857143;
+  border: 1px solid transparent;
+  border-radius: 4px 4px 4px 4px;
+  background-color: #fff;
+  color: #000000;
+  padding: 10px;
+  width: 80%;
+  margin: auto;
+}
+div.wrapper {
+max-width:100%;
+margin: auto;
+}
+div.left_block {
+float:left;
+margin: auto;
+padding: 10px;
+display: block;
+max-width: 50%;
+height: auto;
+}
+div.right_block {
+float:right;
+margin: auto;
+padding: 10px;
+display: block;
+max-width: 50%;
+height: auto;
+}
+
+img {
+position: relative;
+/*display: inline-block;*/
+height: auto;
+max-width: 100%;
+/*padding: 10px;*/
+}
+
+p.center{
+  text-align: center;
+}
+.skoro{
+  margin-right: 2px;
+  line-height: 1.42857143;
+  border: 1px solid transparent;
+  border-radius: 5px 5px 5px 5px;
+  background-color: #fff;
+  color: #000000;
+  padding: 1px;
+  max-width: 80%;
+  margin-left: 10%;
+  font-size: 130%;
+  float:left;
+}
+.image {
+  position: relative;
+ /* max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;*/ 
+}
+
+div.image>img{
+border-radius: 1px;
+}
+
+.nad {
+  position  : absolute;
+  top: 200px;
+  left: 0px;
+  width: 100%;
+}
+.text-skoro {
+  margin-right: 2px;
+  line-height: 1.42857143;
+  border: 1px solid transparent;
+  border-radius: 4px 4px 4px 4px;
+  background-color: #fff;
+  color: #000000;
+  padding: 5px;
+}
+.text-skoro:hover {
+  margin-right: 2px;
+  line-height: 1.42857143;
+  border: 1px solid transparent;
+  border-radius: 8px 8px 8px 8px;
+  background-color: #fff;
+  color: red;
+  padding: 6px;
+  font-size: 105%;
+}
+.ramka {
+  position: absolute;
+  right: 20%;
+  bottom: 30px;
+  left: 20%;
+  z-index: 10;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: center;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
+}
+.modal{
+  color: red;
+}
