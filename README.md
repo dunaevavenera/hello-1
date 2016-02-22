@@ -1,2 +1,3 @@
 # hello-1
-just another repository
+it my first project 
+ Thanks for subscribe
